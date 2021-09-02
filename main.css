@@ -1,26 +1,45 @@
 body{
-    font-family:Arial, Helvetica, sans-serif;
-    background-color: lightskyblue;
+    font-family: "apercu", sans-serif;
+    background-color: #0B0C10;
+    color: #c5c6c7;
 }
 header{
-    background-color: darkgrey;
+    background-color: #1f2833;
     margin: 0;
     padding: 0;
     position: relative;
+    color: #c5c6c7;
 }
 header nav li{
     display:inline-block;
     padding-right: 5px;
-    color: whitesmoke;
+    color: #c5c6c7;
 }
 .name{
-    text-align: center;
+    font-family: "apercu", sans-serif;
+    font-weight: bold;
+    padding-left: 4%;
+    color: #66fcf1;
 }
 .about{
-    text-align: center;
-    background-color: white;
-    border:solid black 2px;
-    margin: 5px;
+    background-color:#1f2833;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 3px;
+}
+.about div{
+    display:inline-block;
+    padding-right: 7%;
+    padding-bottom: 3%;
+    vertical-align:text-top;
+}
+.about div ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px
+}
+.about h3{
+    color: #45a29e;
 }
 .contact{
     text-align: left;
@@ -29,4 +48,30 @@ header nav li{
 .contact li{
     display: inline-block;
     width:100%;
+}
+.dropdown {
+    padding: 2%;
+}
+.contact{
+    background-color:#1f2833;
+    padding-top: 1%;
+}
+.contact form{
+    padding-left: 4%;
+    padding-bottom: 2%
+}
+.contact a:link{
+    color: #66fcf1;
+    background-color: transparent;
+    text-decoration: none;
+}
+.contact a:hover{
+    color: #45a29e;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.contact a:visited{
+    color: #45a29e;
+    background-color: transparent;
+    text-decoration: none;
 }
